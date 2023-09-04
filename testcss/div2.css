@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: #28b463;
+}
+.first {
+  opacity: 100%;
+}
+.second {
+  opacity: 60%;
+}
+.third {
+  opacity: 30%;
+}
+.fourth {
+  opacity: 10%;
+}
+.bord {
+  border-top-style: dashed;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: groove;
+  margin: 10px;
+}
+.sbord {
+  text-transform: uppercase;
+  border-top-style: double;
+  border-right-style: dotted;
+  border-bottom-style: double;
+  border-left-style: dotted;
+}
+.typeborder {
+  border-style: dotted solid dashed double;
+}
+.oneline {
+  text-transform: capitalize;
+  margin: 10px;
+  border-style: solid dotted dashed double;
+}
+h3,
+.four,
+.three,
+.two,
+.one {
+  text-transform: uppercase;
+  color: #626567;
+  margin-left: 10px;
+}
+.four {
+  font-style: italic;
+  border-style: dashed double solid dotted;
+}
+.three {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-style: groove dotted solid;
+}
+.two {
+  text-align: center;
+  border-style: solid dashed;
+  background-color: #28b463;
+}
+.one {
+  font-family: monospace;
+  text-align: center;
+  border-style: inset;
+}
+
+.margin {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-right: 150px;
+  margin-bottom: 100px;
+  margin-left: 80px;
+  background-color: #f4d03f;
+}

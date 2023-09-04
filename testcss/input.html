@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css" />
+    <link rel="icon" href="../images/favicon-icon1.png" />
+    <title>Input forms</title>
+  </head>
+  <body>
+    <div class="main">
+      <h2>please input your information.</h2>
+
+      <form action="">
+        <label for="fname">first name:</label>
+        <input
+          type="text"
+          id="fname"
+          name="first name"
+          placeholder="Enter Your first Name"
+        />
+        <br />
+
+        <label for="lname">last name:</label>
+        <input
+          type="text"
+          id="lname"
+          name="last name"
+          placeholder="Enter Your Last Name"
+        />
+        <br />
+        <label for="number">enter your number:</label>
+        <input
+          type="number"
+          id="number"
+          name="num"
+          placeholder="Enter your number"
+        />
+        <br />
+        <label for="somoy">select right time:</label>
+        <input type="time" id="somoy" name="time" /> <br />
+        <label for="birth">date of birth</label>
+        <input type="date" id="birth" name="date" />
+        <br />
+        <label for="mont">your birthday month:</label>
+        <input type="month" id="mont" name="month" /> <br />
+        <label for="wike">today is the week of 2023:</label> <br />
+
+        <label for="e-mail">enter your e-mail</label>
+        <input
+          type="email"
+          id="e-mail"
+          name="email"
+          placeholder="Enter Your E-mail"
+        />
+        <div>
+          your religion
+          <input type="checkbox" id="islam" name="rlg" />
+          <label for="islam">islam</label>
+          <input type="checkbox" id="hindu" name="rlg" />
+          <label for="hindu">sanaton</label>
+          <input type="checkbox" id="boddo" name="rlg" />
+          <label for="boddo">boddo</label>
+        </div>
+        <label for="color">choose your favourite:</label>
+        <input type="color" id="color" name="color" />
+        <br />
+        <label for="game">your favourite mobile game:</label>
+        <input type="checkbox" id="game" name="mobilegame" /><abbr
+          title="Free Fire"
+          >FF</abbr
+        >
+        <input type="checkbox" id="game" name="mobilegame" />
+        <abbr title="PlayerUnknown's Battlegrounds">pubg</abbr>
+        <input type="checkbox" id="game" name="mobilegame" />
+        <abbr title="Call of Duty">cod</abbr>
+        <input type="checkbox" id="game" name="mobilegame" />
+        <abbr title="Clash of Clans">coc</abbr>
+        <br />
+        <div>
+          <label for="gen">gender</label>
+          <input type="radio" id="gen" name="gender" />
+          <label for="gen">male</label>
+          <input type="radio" id="gen2" name="gender" />
+          <label for="gen2">female</label>
+          <input type="radio" id="gen3" name="gender" />
+          <label for="gen3">other</label>
+        </div>
+        <label for="sem"> please select your semester</label>
+        <select name="semester" id="sem">
+          <option value="select">----select your semester----</option>
+          <option value="first">first semester</option>
+          <option value="second">second semester</option>
+          <option value="third">third semester</option>
+          <option value="fourth">fourth semester</option>
+          <option value="fifth">fifth semester</option>
+          <option value="sixth">sixth semester</option>
+          <option value="seventh">seventh semester</option>
+          <option value="eight">eight semester</option></select
+        ><br />
+        <label for="pass">Enter your password:</label>
+        <input
+          type="password"
+          id="pass"
+          name="password"
+          placeholder="Password"
+        />
+        <br />
+        <label for="photo">Upload your photos:</label>
+        <input type="file" id="photo" name="file" />
+        <br />
+        <input type="hidden" />
+        <label for="comm">Comment plz:</label><br />
+        <textarea name="comment" id="comm" cols="30" rows="10"></textarea>
+      </form>
+    </div>
+  </body>
+</html>

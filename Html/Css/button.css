@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #faf0f0;
+  font-family: Roboto, sans-serif;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.topbar {
+  display: block;
+  background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+}
+
+.container {
+  display: block;
+  justify-content: space-between;
+  color: white;
+  width: 1140px;
+  margin: auto;
+}
+
+.base {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.material-symbols-outlined,
+button {
+  color: white;
+}
+
+.topbar-left {
+  display: flex;
+}
+
+.child_1,
+.child_2 {
+  width: 20%;
+  display: flex;
+  padding: 10px 0;
+}
+.child_2 {
+  position: fixed;
+  left: 300px;
+}
+
+.phone,
+.mail_1 {
+  font-size: 20px;
+  margin-left: 10px;
+  border: none;
+}
+.butn {
+  width: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  position: relative;
+  right: 50px;
+  border-radius: 20px;
+  padding: 4px 20px;
+}
+.lang {
+  color: red;
+  border: none;
+  outline: none;
+  background-color: white;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.en {
+  background-color: red;
+  color: white;
+  padding: 4px 6px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.navbar-nav {
+  height: 112px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  position: relative;
+}
+#ci-logo {
+  height: 65px;
+  width: 173px;
+  position: absolute;
+  left: 100px;
+  margin-top: 25px;
+  padding-top: 20px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin-left: 100px;
+}
+.A {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+.B {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+.C {
+  height: 100px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.D {
+  height: 100px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.E {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+.course {
+  margin-top: 22px;
+  height: 55px;
+  width: 222px;
+  display: flex;
+  background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+  justify-content: center;
+  position: relative;
+  padding: 15px 5px;
+  border-radius: 8px;
+}
+.G {
+  padding-right: 8px;
+}
+.F {
+  margin-right: 5px;
+}
+/* Banner Text Section */
+.banner_box {
+  height: 25px;
+  width: 451px;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.check {
+  display: flex;
+  gap: 5px;
+}
+.check_1 {
+  padding-left: 5px;
+}
+
+.check_2 {
+  font-size: 20px;
+}
+
+.intro {
+  display: flex;
+  gap: 10px;
+}
+
+.intro-left {
+  width: 40%;
+  margin: 50px 0px 0px 100px;
+}
+
+.main_banner_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_box_text {
+  display: flex;
+  margin-top: 50px;
+  font-size: 45px;
+  flex-direction: column;
+  font-weight: bold;
+}
+.banner_text_h1 {
+  color: red;
+}
+.banner_text_p {
+  font-size: 16px;
+  font-weight: 25px;
+  margin-top: 20px;
+}
+
+.banner_batton {
+  height: 50px;
+  display: flex;
+  gap: 25px;
+}
+.banner_batton_1 {
+  background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+  border: none;
+  height: 50px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  transition: all 1s ease;
+}
+.banner_batton_1:hover {
+  background: white;
+  color: red;
+}
+.banner_batton_text_1 {
+  padding-left: 10px;
+}
+.banner_batton_2 {
+  background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+  margin-top: 10px;
+  display: flex;
+  padding: 15px;
+  height: 50px;
+  width: 190px;
+  border-radius: 10px;
+  color: white;
+  gap: 10px;
+  transition: all 1s ease;
+}
+.banner_batton_2:hover {
+  background: white;
+  color: red;
+}
+.iso_logo {
+  height: 52px;
+  display: flex;
+  margin-top: 50px;
+}
+.iso_text {
+  font-weight: bold;
+}
+.plus_gap {
+  margin-top: 320px;
+  margin-left: -80px;
+}
+.intro-right {
+  width: 60%;
+}
+.right_banner {
+  height: 369px;
+  border-radius: 20px;
+  margin-top: 150px;
+}

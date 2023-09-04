@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.new {
+  /*new tag in div tag*/
+  height: 400px;
+  width: auto;
+  background-color: #bdc3c7;
+}
+/*this is a a tag*/
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  display: block; /* display block*/
+}
+/* css design html linked*/

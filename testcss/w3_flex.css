@@ -1,0 +1,25 @@
+.main {
+  height: 300px;
+  width: 220px;
+  border: 1px solid black;
+  display: flex;
+  align-items: end;
+}
+.main div {
+  flex: 1;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+}
+div .A {
+  background-color: aqua;
+  min-height: 30px;
+}
+div .B {
+  min-height: 50px;
+  background-color: blue;
+}
+div .C {
+  min-height: 190px;
+  background-color: rgb(103, 121, 176);
+}

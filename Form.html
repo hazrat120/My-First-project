@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Form.css" />
+    <title>Form Table</title>
+  </head>
+  <body>
+    <h1>Sign Up Form</h1>
+    <hr />
+    <div class="form-container">
+      <form action="#">
+        <label for="user">Name:</label>
+        <input type="text" id="user" name="user" placeholder="User name" />
+        <br />
+
+        <label for="e-mail">E-mail:</label>
+        <input
+          type="E-mail"
+          name="email"
+          id="e-mail"
+          placeholder="User Mail"
+          required
+        /><br />
+
+        <label for="pass">Password:</label>
+        <input
+          type="password"
+          name="pass"
+          id="pass"
+          placeholder="Password"
+          required
+        /><br />
+
+        <label for="phn">Phone:</label>
+        <select name="code">
+          <option value="+880">+880</option>
+          <option value="+990">+990</option>
+          <option value="+110">+110</option>
+        </select>
+        <input
+          type="number"
+          id="phn"
+          name="phone"
+          placeholder="Phone"
+          required
+        /><br />
+
+        Gender:
+        <input type="radio" id="gnd1" name="gender" />
+        <label for="gnd1">Male</label>
+        <input type="radio" id="gnd2" name="gender" />
+        <label for="gnd2">Female</label> <br />
+
+        <label for="date">Date Of Birth:</label>
+        <input type="date" id="date" name="date" /><br />
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" /><br />
+
+        <label for="color">Chose your color:</label>
+        <input type="color" id="color" name="col" /><br />
+
+        <label for="Pht">Upload Photos:</label>
+        <input type="file" id="Pht" name="photos" /><br />
+
+        <input type="checkbox" id="vehical1" name="vec" />
+        <label for="vehical1"> I Have a Bike</label>
+        <input type="checkbox" id="vehical2" name="vec" />
+        <label for="vehical2"> I Have a Bicycle</label>
+        <br />
+
+        <label for="country">Country:</label>
+        <input list="count" />
+        <datalist id="coun">
+          <option value="Bangladesh"></option>
+          <option value="India"></option>
+          <option value="Canada"></option></datalist
+        ><br />
+
+        <label for="comment">Comment Here:</label><br />
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea
+        ><br />
+
+        <input type="submit" value="Send" />
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
+  </body>
+</html>

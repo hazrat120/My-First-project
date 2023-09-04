@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+div {
+  width: 300px;
+  margin: auto;
+  border: 2px solid #797d7f;
+  background-color: #c39bd3;
+}
+.pad {
+  border: 2px outset black;
+  padding: 70px;
+}
+.property {
+  border: 2px dashed #512e5f;
+  padding: 25px 50px 75px 100px;
+  margin-bottom: 10px;
+}
+.threepadding {
+  border: 2px dotted black;
+  padding: 25px 50px 75px;
+  text-transform: capitalize;
+}
+.h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.ex1 {
+  width: 300px;
+  background-color: #a9cce3;
+}
+.ex2 {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: #f1948a;
+}

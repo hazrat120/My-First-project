@@ -1,0 +1,27 @@
+tml {
+  font-size: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.maindiv {
+  width: 99.7%;
+  height: 800px;
+  border: 2px solid black;
+}
+.head {
+  width: 100%;
+  height: 100px;
+  background-color: #a6acaf;
+}
+.mainbody {
+  width: 100%;
+  height: 600px;
+  background-color: #d7bde2;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #abebc6;
+}

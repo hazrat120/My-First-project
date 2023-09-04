@@ -1,0 +1,31 @@
+html {
+  font-size: 140%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  border: 2px solid black;
+  width: 300px;
+}
+
+.form-contaier {
+  display: flex;
+}
+
+form {
+  margin: auto;
+  background-color: #bfc9ca;
+  display: inline-block;
+}
+#user {
+  border: none;
+  width: 100px;
+}

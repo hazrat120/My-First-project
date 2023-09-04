@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ebedef;
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+  background-color: #a6acaf;
+  margin: auto;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+abbr {
+  text-decoration: none;
+}
+tr:nth-child(even) {
+  background-color: #ccd1d1;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}

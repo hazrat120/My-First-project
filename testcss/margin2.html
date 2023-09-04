@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="margin2.css" />
+    <title>Margin Design</title>
+  </head>
+  <body>
+    <h2>Use of margin: auto</h2>
+    <p>
+      You can set the margin property to auto to horizontally center the element
+      within its container. The element will then take up the specified width,
+      and the remaining space will be split equally between the left and right
+      margins:
+    </p>
+    <div>
+      This div will be horizontally centered because it has margin: auto;
+    </div>
+    <h2>CSS Padding</h2>
+    <div class="pad">This element has a padding of 70px.</div>
+    <br />
+    <h2>The padding shorthand property -4 values</h2>
+    <div class="property">
+      <!--the div element has a top padding-->
+      This div element has a top padding of 25px, a right padding of 50px, a
+      bottom padding of 75px, and a left padding of 100px.
+    </div>
+    <!--3 base padding-->
+    <h2>The padding shorthand property -3 values</h2>
+    <div class="threepadding">
+      This div element has a top padding of 25px, a right and left padding of
+      50px, and a bottom padding of 75px.
+    </div>
+    <h2>Padding and element width - with box-sizing</h2>
+    <div class="ex1">This div is 300px wide.</div>
+    <div class="ex2">
+      The width of this div remains at 300px, in spite of the 50px of total left
+      and right padding, because of the box-sizing: border-box property.
+    </div>
+  </body>
+</html>

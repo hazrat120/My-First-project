@@ -1,0 +1,10 @@
+body {
+  background: rgba(197, 197, 28, 0.267) url(../Image/Katakana\ Chart.png)
+    no-repeat top center;
+}
+
+.ptag {
+  border-width: 2px solid;
+  height: 200px;
+  width: 100%;
+}

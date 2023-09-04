@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  width: 600px;
+  height: 400px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  display: flex;
+  align-content: space-around;
+}
+
+div .child_1 {
+  height: 100px;
+  width: 110px;
+  background-color: rgb(130, 130, 212);
+}
+div .child_2 {
+  height: 100px;
+  width: 110px;
+  background-color: rgb(88, 195, 120);
+}
+div .child_3 {
+  height: 100px;
+  width: 110px;
+  background-color: rgb(192, 86, 125);
+}
+div .child_4 {
+  height: 100px;
+  width: 110px;
+  background-color: rgb(224, 108, 119);
+}
+div .child_5 {
+  height: 100px;
+  width: 110px;
+  background-color: rgb(189, 194, 84);
+}
+div .child_6 {
+  height: 100px;
+  width: 110px;
+  background-color: rgb(169, 208, 169);
+}

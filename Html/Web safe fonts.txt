@@ -1,0 +1,11 @@
+Web safe fonts-
+1. arial
+2. comic sans
+3. courier new
+4. georgia
+5. impact
+6. palatino
+7. tahoma
+8. times new roman
+9. trebuchet ms
+10.verdana

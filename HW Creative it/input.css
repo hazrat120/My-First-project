@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  text-align: center;
+  width: auto;
+  background-color: #aeb6bf;
+}
+#fname {
+  width: 100;
+}

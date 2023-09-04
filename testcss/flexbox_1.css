@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2,
+h1 {
+  text-transform: capitalize;
+  padding: 10px;
+}
+.main {
+  width: 600px;
+  height: 400px;
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  flex-flow: column-reverse wrap-reverse;
+}
+div .child_1 {
+  height: 100px;
+  width: 150px;
+  background-color: rgb(161, 123, 76);
+}
+div .child_2 {
+  height: 100px;
+  width: 150px;
+  background-color: rgb(93, 93, 168);
+}
+div .child_3 {
+  height: 100px;
+  width: 150px;
+  background-color: rgb(196, 160, 107);
+}
+div .child_4 {
+  background-color: lightcoral;
+  height: 100px;
+  width: 150px;
+}
+div .child_5 {
+  height: 100px;
+  width: 150px;
+  background-color: lightgreen;
+}
+div .child_6 {
+  height: 100px;
+  width: 150px;
+  background-color: lightseagreen;
+}
